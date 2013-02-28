@@ -93,7 +93,6 @@ namespace ViewDeckController
 		[Static, Export ("IIViewDeckOffsetOrientationFromIIViewDeckSide")]
 		IIViewDeckOffsetOrientation IIViewDeckOffsetOrientationFromIIViewDeckSide(IIViewDeckSide side);
 
-
 		//- (IIViewDeckSide)sideForController:(UIViewController*)controller;
 		[Export ("sideForController:")]
 		IIViewDeckSide SideForController (UIViewController controller);
